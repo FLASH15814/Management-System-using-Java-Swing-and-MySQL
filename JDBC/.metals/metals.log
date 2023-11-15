@@ -1,0 +1,462 @@
+2023.11.14 17:43:56 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC' for client Visual Studio Code 1.84.2.
+2023.11.14 17:43:57 WARN  Build server is not auto-connectable.
+2023.11.14 17:43:57 WARN  no build tool detected in workspace 'C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.11.14 17:44:21 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:44:22 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2023.11.14 17:44:31 INFO  no build target found for C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java. Using presentation compiler with project's scala-library version: 3.3.1
+Nov. 14, 2023 5:44:32 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Nov. 14, 2023 5:44:32 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Nov. 14, 2023 5:44:32 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Nov. 14, 2023 5:44:33 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2023.11.14 17:44:35 INFO  time: code lens generation in 1.75s
+2023.11.14 17:44:35 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:44:37 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-37-021.md
+Nov. 14, 2023 5:44:37 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-37-903.md
+Nov. 14, 2023 5:44:47 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-47-072.md
+Nov. 14, 2023 5:44:47 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-47-289.md
+Nov. 14, 2023 5:44:47 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-47-777.md
+Nov. 14, 2023 5:44:47 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-47-967.md
+Nov. 14, 2023 5:44:48 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-48-280.md
+Nov. 14, 2023 5:44:48 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-48-467.md
+2023.11.14 17:44:48 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:44:49 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-49-484.md
+Nov. 14, 2023 5:44:49 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-49-953.md
+Nov. 14, 2023 5:44:50 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-50-638.md
+2023.11.14 17:44:50 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+2023.11.14 17:44:51 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:44:51 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-51-640.md
+Nov. 14, 2023 5:44:51 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-51-841.md
+2023.11.14 17:44:52 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:44:52 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-52-259.md
+2023.11.14 17:44:52 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:44:52 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-52-845.md
+Nov. 14, 2023 5:44:56 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-56-899.md
+2023.11.14 17:44:57 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:44:57 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-57-287.md
+2023.11.14 17:44:57 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:44:57 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-57-894.md
+2023.11.14 17:44:59 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:44:59 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-44-59-370.md
+2023.11.14 17:44:59 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:00 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-00-276.md
+Nov. 14, 2023 5:45:00 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-00-382.md
+2023.11.14 17:45:00 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:01 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-01-121.md
+2023.11.14 17:45:01 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+2023.11.14 17:45:02 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:02 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-02-170.md
+2023.11.14 17:45:02 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:02 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-02-719.md
+2023.11.14 17:45:02 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:03 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-03-278.md
+2023.11.14 17:45:03 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:03 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-03-885.md
+Nov. 14, 2023 5:45:04 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-04-371.md
+Nov. 14, 2023 5:45:04 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-04-799.md
+2023.11.14 17:45:05 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:05 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-05-268.md
+2023.11.14 17:45:05 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:06 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-06-045.md
+2023.11.14 17:45:06 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:06 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-06-514.md
+2023.11.14 17:45:06 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:07 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-07-262.md
+Nov. 14, 2023 5:45:07 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-07-345.md
+Nov. 14, 2023 5:45:07 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-07-798.md
+Nov. 14, 2023 5:45:08 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-08-491.md
+2023.11.14 17:45:09 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:09 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-09-137.md
+2023.11.14 17:45:09 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:09 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-09-853.md
+Nov. 14, 2023 5:45:10 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-10-178.md
+Nov. 14, 2023 5:45:10 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-10-566.md
+2023.11.14 17:45:10 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:11 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-11-443.md
+2023.11.14 17:45:11 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:12 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-12-157.md
+2023.11.14 17:45:12 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:12 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-12-512.md
+Nov. 14, 2023 5:45:12 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-12-960.md
+2023.11.14 17:45:13 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:13 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-13-645.md
+2023.11.14 17:45:14 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+2023.11.14 17:45:14 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:14 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-14-250.md
+Nov. 14, 2023 5:45:14 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-14-617.md
+Nov. 14, 2023 5:45:14 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-14-928.md
+Nov. 14, 2023 5:45:15 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-15-384.md
+Nov. 14, 2023 5:45:15 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-15-607.md
+Nov. 14, 2023 5:45:16 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-16-109.md
+Nov. 14, 2023 5:45:16 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-16-775.md
+2023.11.14 17:45:16 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:17 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-17-602.md
+Nov. 14, 2023 5:45:17 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-17-795.md
+2023.11.14 17:45:18 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:18 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-18-268.md
+2023.11.14 17:45:18 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:18 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-18-858.md
+2023.11.14 17:45:19 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:19 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-19-339.md
+2023.11.14 17:45:19 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:20 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-20-018.md
+Nov. 14, 2023 5:45:22 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-22-733.md
+2023.11.14 17:45:23 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:23 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-23-185.md
+Nov. 14, 2023 5:45:23 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-23-968.md
+2023.11.14 17:45:24 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+2023.11.14 17:45:24 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:24 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-24-880.md
+2023.11.14 17:45:25 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:25 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-25-240.md
+2023.11.14 17:45:25 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:26 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-26-135.md
+Nov. 14, 2023 5:45:26 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-26-205.md
+2023.11.14 17:45:26 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:26 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-26-630.md
+2023.11.14 17:45:26 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:27 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-27-443.md
+Nov. 14, 2023 5:45:27 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-27-882.md
+Nov. 14, 2023 5:45:28 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-28-324.md
+Nov. 14, 2023 5:45:28 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-28-461.md
+Nov. 14, 2023 5:45:28 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-28-865.md
+2023.11.14 17:45:29 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+2023.11.14 17:45:29 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:29 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-29-801.md
+Nov. 14, 2023 5:45:30 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-30-064.md
+Nov. 14, 2023 5:45:30 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-30-380.md
+Nov. 14, 2023 5:45:30 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-30-483.md
+Nov. 14, 2023 5:45:30 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-30-648.md
+2023.11.14 17:45:30 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:31 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-31-094.md
+Nov. 14, 2023 5:45:31 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-31-567.md
+Nov. 14, 2023 5:45:31 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-31-904.md
+Nov. 14, 2023 5:45:32 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-32-069.md
+2023.11.14 17:45:32 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:32 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-32-608.md
+2023.11.14 17:45:33 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:33 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-33-209.md
+Nov. 14, 2023 5:45:33 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-33-850.md
+Nov. 14, 2023 5:45:34 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-34-029.md
+Nov. 14, 2023 5:45:34 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-34-209.md
+Nov. 14, 2023 5:45:34 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-34-346.md
+Nov. 14, 2023 5:45:34 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-34-655.md
+Nov. 14, 2023 5:45:34 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-34-785.md
+Nov. 14, 2023 5:45:34 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-34-836.md
+2023.11.14 17:45:35 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:35 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-35-238.md
+2023.11.14 17:45:35 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:35 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-35-837.md
+2023.11.14 17:45:36 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:36 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-36-355.md
+Nov. 14, 2023 5:45:36 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-36-836.md
+2023.11.14 17:45:36 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:37 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-37-447.md
+2023.11.14 17:45:37 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+2023.11.14 17:45:38 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:38 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-38-224.md
+Nov. 14, 2023 5:45:38 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-38-565.md
+Nov. 14, 2023 5:45:39 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-38-996.md
+Nov. 14, 2023 5:45:39 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-39-521.md
+Nov. 14, 2023 5:45:39 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-39-684.md
+Nov. 14, 2023 5:45:40 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-40-090.md
+Nov. 14, 2023 5:45:40 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-40-455.md
+Nov. 14, 2023 5:45:40 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-40-883.md
+Nov. 14, 2023 5:45:41 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-41-408.md
+Nov. 14, 2023 5:45:41 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-41-801.md
+Nov. 14, 2023 5:45:42 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-42-048.md
+Nov. 14, 2023 5:45:42 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-42-616.md
+Nov. 14, 2023 5:45:42 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-42-678.md
+Nov. 14, 2023 5:45:42 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-42-734.md
+Nov. 14, 2023 5:45:42 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-42-867.md
+Nov. 14, 2023 5:45:43 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-43-132.md
+Nov. 14, 2023 5:45:43 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-43-260.md
+Nov. 14, 2023 5:45:43 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-43-684.md
+Nov. 14, 2023 5:45:44 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-44-123.md
+Nov. 14, 2023 5:45:44 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-44-206.md
+Nov. 14, 2023 5:45:44 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-44-618.md
+Nov. 14, 2023 5:45:45 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-45-808.md
+2023.11.14 17:45:46 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:46 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-46-664.md
+Nov. 14, 2023 5:45:47 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-47-600.md
+Nov. 14, 2023 5:45:48 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-48-054.md
+Nov. 14, 2023 5:45:48 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-48-568.md
+Nov. 14, 2023 5:45:49 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-49-167.md
+2023.11.14 17:45:49 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:49 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-49-770.md
+Nov. 14, 2023 5:45:49 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-49-980.md
+Nov. 14, 2023 5:45:50 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-50-417.md
+Nov. 14, 2023 5:45:50 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-50-895.md
+Nov. 14, 2023 5:45:50 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-50-967.md
+Nov. 14, 2023 5:45:51 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-51-311.md
+Nov. 14, 2023 5:45:51 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-51-494.md
+2023.11.14 17:45:51 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:51 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-51-981.md
+Nov. 14, 2023 5:45:52 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-52-526.md
+Nov. 14, 2023 5:45:53 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-52-999.md
+Nov. 14, 2023 5:45:53 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-53-481.md
+2023.11.14 17:45:53 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+2023.11.14 17:45:54 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:54 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-54-140.md
+Nov. 14, 2023 5:45:54 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-54-193.md
+2023.11.14 17:45:54 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+2023.11.14 17:45:54 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:55 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-55-018.md
+2023.11.14 17:45:55 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:55 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-55-691.md
+2023.11.14 17:45:56 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:45:56 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-56-745.md
+2023.11.14 17:45:57 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:45:57 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-57-337.md
+Nov. 14, 2023 5:45:58 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-45-58-221.md
+2023.11.14 17:46:27 WARN  Running javac-semanticdb failed for file:///C:/Users/ransh/OneDrive/Desktop/$-$-$-$-$/JDBC/src/App.java. Output:
+
+Nov. 14, 2023 5:46:27 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-46-27-964.md
+Nov. 14, 2023 5:46:28 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-46-28-134.md
+Nov. 14, 2023 5:46:28 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-46-28-307.md
+2023.11.14 17:46:28 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\App.java
+Nov. 14, 2023 5:46:29 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-46-29-059.md
+2023.11.14 17:46:41 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\CreateDB.java
+Nov. 14, 2023 5:46:41 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-46-41-379.md
+Nov. 14, 2023 5:46:42 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-46-42-000.md
+Nov. 14, 2023 5:48:48 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov. 14, 2023 5:48:49 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-48-49-798.md
+Nov. 14, 2023 5:48:59 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-48-59-835.md
+Nov. 14, 2023 5:49:13 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-49-13-742.md
+Nov. 14, 2023 5:49:19 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-49-19-099.md
+Nov. 14, 2023 5:49:19 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-49-19-598.md
+Nov. 14, 2023 5:49:21 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-49-21-135.md
+Nov. 14, 2023 5:49:21 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-49-21-607.md
+Nov. 14, 2023 5:50:02 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-02-365.md
+Nov. 14, 2023 5:50:10 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-10-198.md
+Nov. 14, 2023 5:50:12 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-12-214.md
+Nov. 14, 2023 5:50:12 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-12-616.md
+Nov. 14, 2023 5:50:43 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-43-833.md
+Nov. 14, 2023 5:50:44 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-44-338.md
+Nov. 14, 2023 5:50:44 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-44-759.md
+Nov. 14, 2023 5:50:45 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-45-177.md
+Nov. 14, 2023 5:50:46 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-46-414.md
+Nov. 14, 2023 5:50:46 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-46-908.md
+Nov. 14, 2023 5:50:47 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-47-475.md
+Nov. 14, 2023 5:50:48 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-48-384.md
+Nov. 14, 2023 5:50:48 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-48-955.md
+2023.11.14 17:50:49 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\CreateDB.java
+Nov. 14, 2023 5:50:49 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-49-771.md
+Nov. 14, 2023 5:50:50 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-50-482.md
+2023.11.14 17:50:50 WARN  no build target for: C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\src\CreateDB.java
+Nov. 14, 2023 5:50:50 P.M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ransh\OneDrive\Desktop\$-$-$-$-$\JDBC\.metals\.reports\metals-full\2023-11-14\r_compiler-error_17-50-50-845.md
