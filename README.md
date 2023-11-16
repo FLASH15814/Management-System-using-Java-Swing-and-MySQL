@@ -1,4 +1,16 @@
-<h3 align="center">💡 In this Project, i have created a management system in which user can add, view, update and delete the selling products, print the bill and to review the products sold with id and time at which the product was sold</h3>
+<h3 align="center">💡 In this Project, i have created a management system in which user can add, view, update and delete the sold products, print the bill and to review the products that are already sold.</h3>
+
+- 🔑 **This is a Java GUI Application, so that user/Seller can insert the data for instance name of the customer, product name,etc.**
+
+- 🔑 **User Can CRUD(Create, Read, Update, Delete) the data**
+
+- 🔑 **Once, item is sold, Seller can print the receipt and the total amount to the Customer**
+
+- 🔑 **Seller can view the sold items and can view the total sum of the products sold.**
+
+- 📝 [In order to run the file, you need to start the MySQL Server, at localhost , port :3306.](In order to run the file, you need to start the MySQL Server, at localhost , port :3306.)
+
+- 🔑 **I have added a Login Page to make it more secure to use.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
