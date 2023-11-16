@@ -1,10 +1,10 @@
 <h3 align="center">💡 In this Project, i have created a management system in which user can add, view, update and delete the sold products, print the bill and to review the products that are already sold.</h3>
 
-- 🔑 **This is a Java GUI Application, so that user/Seller can insert the data for instance name of the customer, product name,etc.**
+🔑 **This is a Java GUI Application, so that user/Seller can insert the data for instance name of the customer, product name,etc.**
 
-- 🔑 **User Can CRUD(Create, Read, Update, Delete) the data**
+🔑 **User Can CRUD(Create, Read, Update, Delete) the data**
 
-- 🔑 **Once, item is sold, Seller can print the receipt and the total amount to the Customer**
+🔑 **Once, item is sold, Seller can print the receipt and the total amount to the Customer**
 
 - 🔑 **Seller can view the sold items and can view the total sum of the products sold.**
 
