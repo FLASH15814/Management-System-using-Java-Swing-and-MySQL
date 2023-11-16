@@ -8,7 +8,7 @@
 
 - 🔑 **Seller can view the sold items and can view the total sum of the products sold.**
 
-- 📝 [In order to run the file, you need to start the MySQL Server, at localhost , port :3306.](In order to run the file, you need to start the MySQL Server, at localhost , port :3306.)
+- 📝 **In order to run the file, you need to start the MySQL Server, at localhost , port :3306.**
 
 - 🔑 **I have added a Login Page to make it more secure to use.**
 
