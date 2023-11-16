@@ -4,6 +4,9 @@
  */
 
 
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.sql.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +15,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.imageio.ImageIO;
 import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 import net.proteanit.sql.DbUtils;
 
 /**
@@ -27,6 +32,7 @@ public class Items extends javax.swing.JFrame {
     public Items() {
         initComponents();
         ShowProducts();
+        setIcon();
     }
     ResultSet Rs = null;
     ResultSet Rs1= null;
@@ -48,16 +54,18 @@ public class Items extends javax.swing.JFrame {
         PriceTb = new javax.swing.JTextField();
         PrCatCb = new javax.swing.JComboBox<>();
         jLabel7 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        FilterCb = new javax.swing.JComboBox<>();
         jLabel8 = new javax.swing.JLabel();
         EditBtn = new javax.swing.JButton();
         DeleteBtn = new javax.swing.JButton();
         AddBtn = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         ProductList = new javax.swing.JTable();
+        RefreshBtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -104,10 +112,15 @@ public class Items extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         jLabel7.setText("Filter");
 
-        jComboBox2.setBackground(new java.awt.Color(0, 0, 0));
-        jComboBox2.setFont(new java.awt.Font("Glitch Goblin", 0, 24)); // NOI18N
-        jComboBox2.setForeground(new java.awt.Color(102, 255, 0));
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "BOOK", "LOTION", "CHOCOLATE", "ALMONDS" }));
+        FilterCb.setBackground(new java.awt.Color(0, 0, 0));
+        FilterCb.setFont(new java.awt.Font("Glitch Goblin", 0, 24)); // NOI18N
+        FilterCb.setForeground(new java.awt.Color(102, 255, 0));
+        FilterCb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "BOOK", "LOTION", "CHOCOLATE", "ALMONDS" }));
+        FilterCb.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                FilterCbItemStateChanged(evt);
+            }
+        });
 
         jLabel8.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         jLabel8.setText("Items List");
@@ -158,7 +171,22 @@ public class Items extends javax.swing.JFrame {
         ));
         ProductList.setRowHeight(30);
         ProductList.setShowGrid(true);
+        ProductList.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                ProductListMouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(ProductList);
+
+        RefreshBtn.setBackground(new java.awt.Color(0, 0, 0));
+        RefreshBtn.setFont(new java.awt.Font("Glitch Goblin", 0, 32)); // NOI18N
+        RefreshBtn.setForeground(new java.awt.Color(102, 255, 0));
+        RefreshBtn.setText("REFRESH");
+        RefreshBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RefreshBtnActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -192,13 +220,15 @@ public class Items extends javax.swing.JFrame {
                                 .addComponent(DeleteBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 278, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(80, 80, 80)
-                                .addComponent(AddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(80, 80, 80)
-                                .addComponent(EditBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(433, 433, 433))))
+                                .addComponent(AddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(FilterCb, javax.swing.GroupLayout.PREFERRED_SIZE, 278, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(34, 34, 34)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(EditBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(RefreshBtn))
+                        .addGap(423, 423, 423))))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -241,8 +271,9 @@ public class Items extends javax.swing.JFrame {
                 .addComponent(jLabel8)
                 .addGap(12, 12, 12)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel7))
+                    .addComponent(FilterCb, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7)
+                    .addComponent(RefreshBtn))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(113, Short.MAX_VALUE))
@@ -252,14 +283,39 @@ public class Items extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 255, 51));
         jLabel1.setText("Items");
+        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel1MouseClicked(evt);
+            }
+        });
 
         jLabel2.setFont(new java.awt.Font("OCR A Extended", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 255, 51));
         jLabel2.setText("LOGOUT");
+        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel2MouseClicked(evt);
+            }
+        });
 
         jLabel9.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(102, 255, 51));
         jLabel9.setText("Selling");
+        jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel9MouseClicked(evt);
+            }
+        });
+
+        jLabel10.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel10.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(102, 255, 51));
+        jLabel10.setText("View Bills");
+        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel10MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -275,7 +331,10 @@ public class Items extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel2)
                             .addComponent(jLabel9))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel10)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -286,6 +345,8 @@ public class Items extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(152, 152, 152))
@@ -311,6 +372,18 @@ public class Items extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+private void setIcon() {
+        try {
+            // Load the image from a file (adjust the path accordingly)
+            BufferedImage iconImage = ImageIO.read(new File("C:\\Users\\ransh\\OneDrive\\Desktop\\$-$-$-$-$\\CafeTuto\\images\\logo-black.png"));
+
+            // Set the image as the window icon
+            setIconImage(iconImage);
+        } catch (IOException e) {
+            // Handle the exception if the image cannot be loaded
+            e.printStackTrace();
+        }
+    }
 int PrNum;
 private void CountProd(){
     try{
@@ -335,6 +408,17 @@ private void CountProd(){
             
         }
     }
+    private void FilterProducts(){
+        try{
+                Con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cafedb","root","1234");
+                St=Con.createStatement();
+                Rs = St.executeQuery("select * from ProductTbl where Category ='"+FilterCb.getSelectedItem().toString()+"'");
+                ProductList.setModel(DbUtils.resultSetToTableModel(Rs));
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(this, e);
+        }
+    }
     private void PriceTbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PriceTbActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_PriceTbActionPerformed
@@ -345,10 +429,49 @@ private void CountProd(){
 
     private void EditBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EditBtnActionPerformed
         // TODO add your handling code here:
+        if(PrNameTb.getText().isEmpty() || PriceTb.getText().isEmpty() || PrCatCb.getSelectedIndex()== -1){
+                JOptionPane.showMessageDialog(this,"Missing Information !!");
+            }
+            else{
+                try {
+                    CountProd();
+                    Con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cafedb","root","1234");
+                    PreparedStatement Ps = Con.prepareStatement("update ProductTbl set PName =?,Category=?,Price=? where PNum=?");
+                    Ps.setInt(4,Key);
+                    Ps.setString(1,PrNameTb.getText());
+                    Ps.setString(2,PrCatCb.getSelectedItem().toString());
+                    Ps.setInt(3,Integer.parseInt(PriceTb.getText()));
+                    int row = Ps.executeUpdate();
+                    JOptionPane.showMessageDialog(this,"Item Updated !!");
+                    Con.close();
+                    ShowProducts();
+                } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(this, ex);
+                }
+                
+            }
     }//GEN-LAST:event_EditBtnActionPerformed
 
     private void DeleteBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteBtnActionPerformed
         // TODO add your handling code here:
+        if(PrNameTb.getText().isEmpty() || PriceTb.getText().isEmpty() || PrCatCb.getSelectedIndex()== -1){
+                JOptionPane.showMessageDialog(this,"Missing Information !!");
+            }
+            else{
+                try {
+                    CountProd();
+                    Con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cafedb","root","1234");
+                    PreparedStatement Ps = Con.prepareStatement("delete from ProductTbl where PNum = ?");
+                    Ps.setInt(1,Key);
+                    int row = Ps.executeUpdate();
+                    JOptionPane.showMessageDialog(this,"Item Deleted !!");
+                    Con.close();
+                    ShowProducts();
+                } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(this, ex);
+                }
+                
+            }
     }//GEN-LAST:event_DeleteBtnActionPerformed
 
     private void AddBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddBtnActionPerformed
@@ -375,6 +498,43 @@ private void CountProd(){
                 
             }
     }//GEN-LAST:event_AddBtnActionPerformed
+int Key= 0;
+    private void ProductListMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ProductListMouseClicked
+        DefaultTableModel model = (DefaultTableModel) ProductList.getModel();
+        int MyIndex = ProductList.getSelectedRow();
+        Key = Integer.valueOf(model.getValueAt(MyIndex,0).toString());
+        PrNameTb.setText(model.getValueAt(MyIndex,1).toString());
+        //PrCatCb.setText(model.getValueAt(MyIndex,2).toString());
+        PriceTb.setText(model.getValueAt(MyIndex,3).toString());
+    }//GEN-LAST:event_ProductListMouseClicked
+
+    private void FilterCbItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_FilterCbItemStateChanged
+        FilterProducts();
+    }//GEN-LAST:event_FilterCbItemStateChanged
+
+    private void RefreshBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RefreshBtnActionPerformed
+        ShowProducts();
+    }//GEN-LAST:event_RefreshBtnActionPerformed
+
+    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+        new Login().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel2MouseClicked
+
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+        new Selling().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel9MouseClicked
+
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+        new Items().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
+        new ViewSells().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel10MouseClicked
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -413,12 +573,14 @@ private void CountProd(){
     private javax.swing.JButton AddBtn;
     private javax.swing.JButton DeleteBtn;
     private javax.swing.JButton EditBtn;
+    private javax.swing.JComboBox<String> FilterCb;
     private javax.swing.JComboBox<String> PrCatCb;
     private javax.swing.JTextField PrNameTb;
     private javax.swing.JTextField PriceTb;
     private javax.swing.JTable ProductList;
-    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JButton RefreshBtn;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

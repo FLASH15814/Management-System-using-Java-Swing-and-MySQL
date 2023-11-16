@@ -1,7 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import javax.imageio.ImageIO;
+import net.proteanit.sql.DbUtils;
+
 
 /**
  *
@@ -14,8 +21,37 @@ public class ViewSells extends javax.swing.JFrame {
      */
     public ViewSells() {
         initComponents();
+        ShowBills();
+        setIcon();
     }
+    private void setIcon() {
+        try {
+            // Load the image from a file (adjust the path accordingly)
+            BufferedImage iconImage = ImageIO.read(new File("C:\\Users\\ransh\\OneDrive\\Desktop\\$-$-$-$-$\\CafeTuto\\images\\logo-black.png"));
 
+            // Set the image as the window icon
+            setIconImage(iconImage);
+        } catch (IOException e) {
+            // Handle the exception if the image cannot be loaded
+            e.printStackTrace();
+        }
+    }
+    ResultSet Rs = null;
+    ResultSet Rs1= null;
+    Connection Con= null;
+    Statement St = null;
+    Statement St2 = null;
+    private void ShowBills(){
+        try{
+                Con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cafedb","root","1234");
+                St=Con.createStatement();
+                Rs = St.executeQuery("select * from BillTbl");
+                BillList.setModel(DbUtils.resultSetToTableModel(Rs));
+        }
+        catch(Exception e){
+            
+        }
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -29,7 +65,7 @@ public class ViewSells extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        ItemsList = new javax.swing.JTable();
+        BillList = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -44,10 +80,10 @@ public class ViewSells extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("OCR A Extended", 0, 36)); // NOI18N
         jLabel4.setText("LIST OF SELLS");
 
-        ItemsList.setBackground(new java.awt.Color(0, 0, 0));
-        ItemsList.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
-        ItemsList.setForeground(new java.awt.Color(51, 255, 0));
-        ItemsList.setModel(new javax.swing.table.DefaultTableModel(
+        BillList.setBackground(new java.awt.Color(0, 0, 0));
+        BillList.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
+        BillList.setForeground(new java.awt.Color(51, 255, 0));
+        BillList.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -55,12 +91,12 @@ public class ViewSells extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "ID", "NAME", "CATEGORIES", "PRICE"
+                "ID", "SELLER", "DATE", "AMOUNT"
             }
         ));
-        ItemsList.setRowHeight(30);
-        ItemsList.setShowGrid(true);
-        jScrollPane1.setViewportView(ItemsList);
+        BillList.setRowHeight(30);
+        BillList.setShowGrid(true);
+        jScrollPane1.setViewportView(BillList);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -89,10 +125,20 @@ public class ViewSells extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 255, 51));
         jLabel1.setText("Items");
+        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel1MouseClicked(evt);
+            }
+        });
 
         jLabel2.setFont(new java.awt.Font("OCR A Extended", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 255, 51));
         jLabel2.setText("LOGOUT");
+        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel2MouseClicked(evt);
+            }
+        });
 
         jLabel9.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(102, 255, 51));
@@ -101,6 +147,11 @@ public class ViewSells extends javax.swing.JFrame {
         jLabel10.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(102, 255, 51));
         jLabel10.setText("Selling");
+        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel10MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -161,6 +212,21 @@ public class ViewSells extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+        new Login().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel2MouseClicked
+
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+        new Items().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
+        new Selling().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel10MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -197,7 +263,7 @@ public class ViewSells extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTable ItemsList;
+    private javax.swing.JTable BillList;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
